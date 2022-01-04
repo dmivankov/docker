@@ -1,5 +1,3 @@
-# This file is auto generated from it's template,
-# see citusdata/tools/packaging_automation/templates/docker/latest/latest.tmpl.dockerfile.
 FROM postgres:12.9
 ARG VERSION=10.0.6
 LABEL maintainer="Citus Data https://citusdata.com" \
