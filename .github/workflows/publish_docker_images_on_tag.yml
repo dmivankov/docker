@@ -6,7 +6,7 @@ env:
 
 on:
   push:
-    branches:
+    tags:
       - "**"
 jobs:
   build_and_publish_images:
@@ -23,6 +23,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: master
 
       - name: Clone tools branch
         run: git clone -b v0.8.11 --depth=1 https://github.com/citusdata/tools.git tools
