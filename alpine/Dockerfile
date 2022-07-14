@@ -19,6 +19,8 @@ RUN apk add --no-cache \
         curl \
         curl-dev \
         openssl-dev \
+        ca-certificates \
+        clang \
         llvm \
         lz4-dev \
         zstd-dev \
