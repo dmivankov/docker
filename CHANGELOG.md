@@ -2,7 +2,7 @@
 
 * Bump Citus version to 11.0.6
 
-* Bump PostgreSQL version to 14.2
+* Bump PostgreSQL version to 14.5,13.7, 12.12
 
 ### citus-docker v11.0.5.docker (August 01,2022) ###
 
